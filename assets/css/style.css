@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100&display=swap");
+.primary-color {
+  color: #6E9554;
+}
+
+.secondary-color {
+  color: #C76679;
+}
+
+.dark-color {
+  color: #656660;
+}
+
+.light-color {
+  color: #BAAC8F;
+}
+
+.accent-color {
+  color: #226341;
+}
+
+.fs-1 {
+  font-size: 4rem;
+}
+
+.fs-2 {
+  font-size: 3.25rem;
+}
+
+.fs-3 {
+  font-size: 2.75rem;
+}
+
+.fs-4 {
+  font-size: 2rem;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
+.fw-thin {
+  font-weight: 100;
+}
+
+.fw-thin-italic {
+  font-weight: 100, italic;
+}
+
+.fw-regular {
+  font-weight: 300;
+}
+
+.fw-bold {
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.probando {
+  height: 500px;
+  width: 500px;
+  background: #6E9554;
+}
+
+/*# sourceMappingURL=style.css.map */

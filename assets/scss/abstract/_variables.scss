@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100&display=swap');
+
+//!Paleta de colores
+
+$primary-color:#6E9554;
+$secondary-color: #C76679;
+$dark-color: #656660;
+$light-color: #BAAC8F;
+$accent-color: #226341;
+
+.primary-color{
+    color: $primary-color;
+}
+.secondary-color{
+    color: $secondary-color;
+}
+.dark-color{
+    color: $dark-color;
+}
+.light-color{
+    color: $light-color;
+}
+.accent-color{
+    color: $accent-color;
+}
+
+//!Fonts
+
+//*font family
+$font-family: 'Poppins', sans-serif;
+
+//*font weight
+$fw-thin: 100;
+$fw-thin-italic: 100, italic;
+$fw-regular: 300;
+$fw-bold: 600;
+
+//*font sizes
+$font-size-xx-large: 4rem;
+$font-size-x-large: 3.25rem;
+$font-size-large: 2.75rem;
+$font-size-medium: 2rem;
+$font-size-small: 1.25rem;
+
+// $font-size-xx-large: xx-large;
+// $font-size-x-large: x-large;
+// $font-size-large: large;
+// $font-size-medium: medium;
+// $font-size-small: small;
+
+
+//?Clases font-size
+.fs-1{
+    font-size: $font-size-xx-large;
+}
+.fs-2{
+    font-size: $font-size-x-large;
+}
+.fs-3{
+    font-size: $font-size-large;
+}
+.fs-4{
+    font-size: $font-size-medium;
+}
+.fs-5{
+    font-size: $font-size-small;
+}
+
+
+.fw-thin{
+    font-weight: $fw-thin;
+}
+.fw-thin-italic{
+    font-weight: $fw-thin-italic;
+}
+.fw-regular{
+    font-weight: $fw-regular;
+}
+.fw-bold{
+    font-weight: $fw-bold;
+}
+
+//!Breakpoint
+
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
+
+
+
